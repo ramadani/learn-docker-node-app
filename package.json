@@ -1,0 +1,29 @@
+{
+  "name": "learn-docker-node-app",
+  "version": "0.1.0",
+  "description": "Learn How to Dockerizing a Node.js Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramadani/learn-docker-node-app.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "docker",
+    "javascript"
+  ],
+  "author": "Ramadani <email.ramadani@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramadani/learn-docker-node-app/issues"
+  },
+  "homepage": "https://github.com/ramadani/learn-docker-node-app#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
