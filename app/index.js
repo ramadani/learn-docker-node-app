@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 const env = process.env.NODE_ENV;
 
 app.get('/', (req, res) => res.send(`Hello Example App in ${env}!`));

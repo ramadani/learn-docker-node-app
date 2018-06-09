@@ -20,6 +20,4 @@ COPY . .
 # Remove package*.json, because it has been copied to ./
 RUN rm app/package*.json
 
-EXPOSE 3000
-
 CMD [ "npm", "run", "dev" ]
