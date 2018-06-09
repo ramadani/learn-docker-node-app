@@ -19,5 +19,3 @@ COPY . .
 
 # Remove package*.json, because it has been copied to ./
 RUN rm app/package*.json
-
-CMD [ "npm", "run", "dev" ]

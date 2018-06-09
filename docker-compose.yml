@@ -1,12 +1,12 @@
 version: '3'
 services:
   web:
-    build: .
-    volumes:
-      - "./app:/code/app"
+    build:
+      context: .
     env_file:
       - ./app/.env
     expose:
       - ${EXPOSE_PORT}
     ports:
       - "${MAP_PORT}:${EXPOSE_PORT}"
+    command: npm start
